@@ -103,6 +103,12 @@ To verify CMCD data is being sent:
 CMCD=br=2500,tb=5000,d=60000,ot=v,od=6000,sf=h,sid="s1234567890-abc123",cid="c1234567890-xyz789"
 ```
 
+# Quality Menu
+
+Implemented based on videojs-contrib-quality-menu@latest/dist/videojs-contrib-quality-menu.min.js
+
+With a few tweaks to the CSS.  More required
+
 ## References
 
 - [Video.js Documentation](https://videojs.com/)

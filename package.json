@@ -1,0 +1,24 @@
+{
+  "name": "videojs-cmcd-test-player",
+  "version": "1.0.0",
+  "description": "Video.js CMCD Test Player - A simple webpage to test CMCD data emission",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "videojs",
+    "cmcd",
+    "hls",
+    "dash",
+    "video",
+    "streaming"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
