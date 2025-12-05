@@ -30,6 +30,22 @@
     dash: {
       src: 'https://cloudfront.content-steering.com/bbb/playlist_steering_cloudfront_https_cdn-b_cdn-a_cdn-c.mpd',
       type: 'application/dash+xml'
+    },
+    GCORE_VOD_DASH: {
+      src: 'https://vod-gcore.5g-emerge.io/TOS/CMAF/TearsOfSteel.mpd',
+      type: 'application/dash+xml'
+    },
+    GCORE_VOD_HLS: {
+      src: 'https://vod-gcore.5g-emerge.io/TOS/CMAF/TearsOfSteel.m3u8',
+       type: 'application/x-mpegURL'
+    },
+    GCORE_LIVE_HLS: {
+      src: 'https://live.5g-emerge.io/out/v1/759cad6035bc478295768c354436b26f/CMAF_HLS/index.m3u8',
+      type: 'application/x-mpegURL'
+    },
+    GCORE_LIVE_DASH: {
+      src: 'https://live.5g-emerge.io/out/v1/b8d4460f49274298b038c1b40c160e7d/index.mpd',
+      type: 'application/dash+xml'
     }
   };
 
